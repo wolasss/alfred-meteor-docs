@@ -1,12 +1,23 @@
-Alfred meteor docs search
-=================
+# alfred-meteor-docs
 
-This is an [Alfred.app](http://www.alfredapp.com/) workflow that searches official meteor documentation. Pressing `return` on a result will open the specific part of the documentation in your web browser.
+> [Alfred 3](https://www.alfredapp.com) workflow that gives you a super quick access to meteor documentation. 
 
-![Preview screenshot](https://raw.githubusercontent.com/wolasss/alfred-meteor-docs/master/preview.jpg)
+<img src="https://raw.githubusercontent.com/wolasss/alfred-meteor-docs/master/alfred-meteor-docs.gif">
+
+## Install
+
+```
+$ npm install --global alfred-meteor-docs
+```
+
+or download it from [here](https://raw.githubusercontent.com/wolasss/alfred-meteor-docs/master/alfred-meteor-docs.alfredworkflow)
+
+*Requires [Node.js](https://nodejs.org) 4+ and the Alfred 3 [Powerpack](https://www.alfredapp.com/powerpack/).*
 
 ## Usage
 
-[Download the Alfred Workflow](https://github.com/wolasss/alfred-meteor-docs/raw/master/meteor-docs.alfredworkflow). Double-click to install.
+In Alfred, type `mdocs` followed by a keyword you want to search the documentation through.
 
-Open Alfred and type `mdocs` followed by search query. 
+## License
+
+MIT © [Adam Wolski](https://adamwolski.com)
